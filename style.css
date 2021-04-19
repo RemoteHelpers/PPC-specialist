@@ -1,0 +1,660 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.page-width {
+    max-width: 1296px;
+    margin: auto;
+}
+
+.image-width {
+    width: 100%;
+}
+
+.mobile-menu-btn, .mobile-menu {
+    display: none;
+    transition: all .5s ease;
+}
+
+.show-menu {
+    display: flex;
+    transition: all .5s ease;
+}
+
+.btn-rounded {
+    background: #DE3190;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 27px 63px;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn {
+    text-decoration: none;
+}
+
+.btn-rounded:hover {
+    background: #FFCB3D;
+    color:#474961;
+    transition: .5s ease;
+}
+
+.double-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.double-section .left {
+    width: 50%;
+}
+
+.double-section .right {
+    width: 50%;
+}
+
+.heading-block h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #158745;
+}
+
+.heading-line {
+    width: 300px;
+    height: 10px;
+    background: rgba(37, 193, 127, 0.25);
+    margin-top: 10px;
+}
+
+.paragraph {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140%;
+    color: #333333;
+    margin-top: 50px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* BANNER */
+
+#banner {
+    background: #158745;
+    max-height: 900px;
+    height: 100%;
+    width: 100%;
+}
+
+.banner-section {
+    margin-top: 92px;
+}
+
+.banner-heading h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.banner-heading h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.banner-btn {
+    margin-top: 50px;
+}
+
+.banner-block-exeption {
+    width: 60% !important;
+}
+
+.banner-img {
+    margin-left: -15%;
+    margin-bottom: 40px;
+}
+
+
+/* HEADER */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 51px;
+}
+
+/* MENU */
+
+.menu a {
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.menu-item {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.menu-item a {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    justify-content: space-between;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.menu-item a:hover {
+    color: #F78F01;
+    transition: .5s ease;
+}
+
+/* ADVANTAGES */
+
+.advantages {
+    padding-top: 220px;
+}
+
+.advantages-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.advantages-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.advantages-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.advantages-heading h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #158745;
+}
+
+.advantages-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 110px;
+}
+
+.advantage-item {
+    height: 220px;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 5px 33px 2px rgba(227, 227, 227, 0.5);
+    -moz-box-shadow: 0px 5px 33px 2px rgba(227, 227, 227, 0.5);
+    box-shadow: 0px 5px 33px 2px rgba(227, 227, 227, 0.5);
+}
+
+.advantage-item p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+    margin-top: 25px;
+    padding: 0px 25px;
+}
+
+/* ABOUT, PPC */
+
+.about, .ppc, .skills, .about_us, .contact {
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+/* SKILLS */
+
+.skill-items {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0;
+}
+
+.skill-item {
+    max-width: 270px;
+}
+
+.skill-item p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140%;
+    color: #333333;  
+}
+
+/* CONTACT */
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+}
+
+.inputs input {
+    border: none;
+    -webkit-box-shadow: 0px 5px 15px 2px rgba(241, 238, 238, 0.5);
+    -moz-box-shadow: 0px 5px 15px 2px rgba(241, 238, 238, 0.5);
+    box-shadow: 0px 5px 15px 2px rgba(241, 238, 238, 0.5);
+    height: 90px;
+    margin-top: 25px;
+    margin-right: 20%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 27px;
+    color: #333333;
+    padding-left: 25px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.submit-btn {
+    background: #DE3190;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
+    color: #FFFFFF !important;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #3ABF7C;
+    transition: .5s ease;
+}
+
+.button-up {
+    text-align: center;
+}
+
+/* FOOTER */
+
+#footer {
+    background: #158745;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.viber-contact-wrapper {
+    margin-bottom: 25px;
+}
+
+.icon-and-name {
+    display: flex;
+}
+
+.viber-icon {
+    padding-top: 6px;
+}
+
+.name h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19.9062px;
+    line-height: 175%;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+.phone p {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.0625px;
+    line-height: 175%;
+    color: #FFFFFF;
+    padding-left: 35px;
+}
+
+.contact-wrapper {
+    margin-bottom: 25px;
+}
+
+.adress-name h2{
+    padding-left: 0px !important;
+}
+
+.adress p {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.0625px;
+    line-height: 175%;
+    color: #FFFFFF;
+}
+
+.link .adress p:hover {
+    color: #F78F01;
+}
+
+
+.link .phone p:hover {
+    color: #F78F01;
+}
+
+.social-icons-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1371px) {
+    .page-width {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .banner-heading h2, .banner-heading h1 {
+    font-size: 50px;
+    line-height: 60px;
+    }
+
+    .btn-rounded {
+        padding: 16px 32px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .advantage-item {
+        height: 180px;
+        width: 270px;
+}
+
+@media screen and (max-width: 1250px) {
+    .header-right-block {
+        display: none;
+    }
+
+    .advantage-item {
+        height: 220px;
+        width: 50% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background: #FFFFFF;
+        border: none;
+        border-radius: 20px;
+        -webkit-box-shadow: 0px 5px 33px 2px rgba(227, 227, 227, 0.5);
+        -moz-box-shadow: 0px 5px 33px 2px rgba(227, 227, 227, 0.5);
+        box-shadow: 0px 5px 33px 2px rgba(227, 227, 227, 0.5);
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .image-width {
+        padding: 25% 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .page-width {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    #banner {
+        height: 100vh;
+    }
+    .menu {
+        display: none;
+    }
+    .mobile-menu-btn {
+        display: block;
+        padding-top: 130%;
+    }
+    .mobile-menu {
+        position: absolute;
+        right: 3%;
+        width: 200px;
+        background: #FFFFFF;
+        padding: 20px;
+    }
+
+    .menu-m{
+        list-style: none;
+        transition: all .5s ease;
+    }
+    .menu-m a {
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        color: #158745;
+        text-decoration: none;
+        text-align: center;
+    }
+    .banner-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-section {
+        margin-top: 0px;
+    }
+    .banner-section > .right {
+        text-align: center;
+    }
+    .banner-btn > .btn-rounded {
+        width: 100% !important;
+    }
+    .banner-img {
+        display: none;
+    }
+    .btn-rounded {
+        width: 100%;
+        text-align: center;
+        display: inline;
+    }
+    .advantages-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 40px;
+        margin-bottom: 110px;
+    }
+    .advantages-items {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 40px;
+        margin-bottom: 110px;
+        align-items: center;
+    }
+    .advantage-item {
+        margin-top: 30px;
+    }
+    .about > .double-section {
+        flex-direction: column;
+    }
+    .about > .double-section .left { 
+        width: 100%;
+    }
+    .about > .double-section .right { 
+        width: 100%;
+    }
+    .about, .ppc, .skills, .about_us, .contact {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    /* ppc */
+    .ppc > .double-section {
+        flex-direction: column-reverse;
+    }
+    .ppc > .double-section .left { 
+        width: 100%;
+    }
+    .ppc > .double-section .right { 
+        width: 100%;
+    }
+    /* skills */
+    .skills > .double-section {
+        flex-direction: column  ;
+    }
+    .skills > .double-section .left { 
+        width: 100%;
+    }
+    .skills > .double-section .right { 
+        width: 100%;
+    }
+    .skill-items {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+    }
+    .skill-item {
+        margin-top: 25px;
+    }
+    /* about_us */
+    .about_us > .double-section {
+        flex-direction: column-reverse;
+    }
+    .about_us > .double-section .left { 
+        width: 100%;
+    }
+    .about_us > .double-section .right { 
+        width: 100%;
+    }
+    /* contact */
+    .contact > .double-section {
+        flex-direction: column;
+    }
+    .contact > .double-section .left { 
+        width: 100%;
+    }
+    .contact > .double-section .right { 
+        width: 100%;
+    }
+    /* footer */
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .social-icons-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between  ;
+    }
+    .social {
+        margin-bottom: 15px;
+        margin: 0px 5px;
+    }
+    .paragraph {
+    text-align: justify;
+    }
+    .image-width {
+        padding: 10% 0;
+    }
+    .inputs input {
+        margin-right: 0px;
+}
+
+@media screen and (max-width: 940px) {
+    .menu ul {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    .banner-heading h2, .banner-heading h1 {
+    font-size: 40px;
+    line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .page-width {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+}
+
+@media screen and (max-width: 540px) {
+    .banner-heading h2, .banner-heading h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+}

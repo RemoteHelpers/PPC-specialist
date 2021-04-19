@@ -1,0 +1,8 @@
+<svg class="circle" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+.circle:hover { transform: scale(1.2); }
+</style>
+<circle cx="25" cy="25" r="25" fill="white"/>
+<circle cx="25" cy="25" r="24.5" stroke="#333333" stroke-opacity="0.3"/>
+<path d="M11 32L24.2929 18.7071C24.6834 18.3166 25.3166 18.3166 25.7071 18.7071L39 32" stroke="#333333" stroke-opacity="0.5"/>
+</svg>
